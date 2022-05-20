@@ -1,17 +1,64 @@
 @charset "UTF-8";
 
 body{
-    font-family: "メイリオ";   
+    font-family: "メイリオ";
+    /*background-image: url();*/
 }
 
 h2{
     font-size: 200%;
 }
 
-footer{
-    text-align: right;
+article{
+    background-color: aliceblue;
+    width: 720px;
+    padding: 20px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: forestgreen;
+    border-radius: 10px;
 }
+
+table{
+    margin: 10px 20px;
+}
+
 
 #question{
     font-weight: bold;
+}
+
+th{
+    background-color: #07fff5;
+    width: 100px;
+    padding: 10px;
+}
+
+td{
+    padding: 5px;
+}
+
+dd{
+    margin: 0 0 1em 1em;
+}
+
+dt{
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: #07fff5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer{
+    text-align: right;
 }
